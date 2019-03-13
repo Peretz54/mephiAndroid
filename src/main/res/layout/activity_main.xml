@@ -11,14 +11,14 @@
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type your message here..."
+        android:hint="@string/hint_main_activity"
         android:textSize="26sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Preview"
+        android:text="@string/preview"
         android:textSize="16sp"
         android:layout_below="@+id/editText"
         android:layout_marginTop="10dp"
